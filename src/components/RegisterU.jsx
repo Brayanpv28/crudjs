@@ -13,7 +13,7 @@ const RegisterU = () => {
         <select>
           <option>Selecciona un rol</option>
           <option>Usuario</option>
-          <option>Administrador</option>
+          <option>Administrador</option>    
         </select>
         <button className="btnR">Registrarse</button>
         <button className="btnIS">Ya tengo cuenta</button>

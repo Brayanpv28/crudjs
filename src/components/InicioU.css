@@ -1,0 +1,76 @@
+/* Contenedor principal centrado */
+.inicio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+  }
+  
+  /* Cuadro de registro con mejor diseño */
+  .inicio-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px; /* Más ancho para mejor apariencia */
+  }
+  
+  /* Estilos de los títulos */
+  .inicio-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilos de los inputs y selects */
+  .inicio-box input {
+    width: 80%;
+    padding: 10px;
+    margin: 8px;
+    background-color: lightblue;
+    border: px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .btnIniciar {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .btnIniciar:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Botón de iniciar sesión */
+  .btnRegister {
+    width: 100%;
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btnRegister:hover {
+    background-color: khaki;
+    color: white;
+  }
+  
